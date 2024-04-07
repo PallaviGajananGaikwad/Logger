@@ -6,7 +6,8 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 
-public class TestApp {
+public class TestApp
+{
 
   //step3 3.create slf4j logger object
    private static Logger Log = LoggerFactory.getLogger(TestApp.class);
@@ -34,7 +35,5 @@ public class TestApp {
         Log.warn("From Warn");
         Log.error("From Error");
         //Log.fatal("From Fatal");
-
-
     }
 }
